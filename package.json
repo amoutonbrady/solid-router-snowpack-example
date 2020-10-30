@@ -6,8 +6,8 @@
     "lint": "prettier --check \"src/**/*.{ts,js}\""
   },
   "dependencies": {
-    "solid-app-router": "^0.0.4",
-    "solid-js": "^0.21.3",
+    "solid-app-router": "^0.0.9",
+    "solid-js": "^0.21.4",
     "workbox-window": "^5.1.4"
   },
   "devDependencies": {
@@ -23,7 +23,7 @@
     "autoprefixer": "^10.0.1",
     "babel-preset-solid": "^0.21.3",
     "postcss": "^8.1.4",
-    "postcss-cli": "^8.1.0",
+    "postcss-cli": "^8.2.0",
     "prettier": "^2.1.2",
     "snowpack": "^2.15.1",
     "tailwindcss": "^1.9.6",

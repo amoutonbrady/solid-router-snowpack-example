@@ -1,6 +1,6 @@
 dependencies:
-  solid-app-router: 0.0.4_solid-js@0.21.3
-  solid-js: 0.21.3
+  solid-app-router: 0.0.9_solid-js@0.21.4
+  solid-js: 0.21.4
   workbox-window: 5.1.4
 devDependencies:
   '@babel/core': 7.12.3
@@ -8,14 +8,14 @@ devDependencies:
   '@babel/preset-typescript': 7.12.1_@babel+core@7.12.3
   '@snowpack/plugin-babel': 2.1.4
   '@snowpack/plugin-optimize': 0.2.6
-  '@snowpack/plugin-postcss': 1.0.6_postcss-cli@8.1.0+postcss@8.1.4
+  '@snowpack/plugin-postcss': 1.0.6_postcss-cli@8.2.0+postcss@8.1.4
   '@snowpack/plugin-run-script': 2.1.7
   '@snowpack/plugin-typescript': 1.0.2_typescript@4.0.5
   '@types/snowpack-env': 2.3.0
   autoprefixer: 10.0.1_postcss@8.1.4
   babel-preset-solid: 0.21.3_@babel+core@7.12.3
   postcss: 8.1.4
-  postcss-cli: 8.1.0_postcss@8.1.4
+  postcss-cli: 8.2.0_postcss@8.1.4
   prettier: 2.1.2
   snowpack: 2.15.1
   tailwindcss: 1.9.6
@@ -1211,10 +1211,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-B9CfbSXuNoPlg9O5nE/5zaVdCRms1TYtFhpWf+R6ZtmvcXybPZVlIun4EbRhqpVT6EUjNUC289dB4FozTQWYow==
-  /@snowpack/plugin-postcss/1.0.6_postcss-cli@8.1.0+postcss@8.1.4:
+  /@snowpack/plugin-postcss/1.0.6_postcss-cli@8.2.0+postcss@8.1.4:
     dependencies:
       postcss: 8.1.4
-      postcss-cli: 8.1.0_postcss@8.1.4
+      postcss-cli: 8.2.0_postcss@8.1.4
     dev: true
     peerDependencies:
       postcss: '*'
@@ -1261,23 +1261,23 @@ packages:
     dev: true
     resolution:
       integrity: sha512-jnqIUKDUqJbDIUxm0Uj7bnlMnRm1T/eZ9N+AVMqhPgzrba2GhGG5o/jCTwmdPK709nEZsGoMzXEDUjcXHa3W0g==
-  /@types/node/14.14.5:
+  /@types/node/14.14.6:
     dev: true
     resolution:
-      integrity: sha512-H5Wn24s/ZOukBmDn03nnGTp18A60ny9AmCwnEcgJiTgSGsCO7k+NWP7zjCCbhlcnVCoI+co52dUAt9GMhOSULw==
+      integrity: sha512-6QlRuqsQ/Ox/aJEQWBEJG7A9+u7oSYl3mem/K8IzxXG/kAGbV1YPD9Bg9Zw3vyxC/YP+zONKwy8hGkSt1jxFMw==
   /@types/parse-json/4.0.0:
     dev: true
     resolution:
       integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
   /@types/resolve/0.0.8:
     dependencies:
-      '@types/node': 14.14.5
+      '@types/node': 14.14.6
     dev: true
     resolution:
       integrity: sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
   /@types/resolve/1.17.1:
     dependencies:
-      '@types/node': 14.14.5
+      '@types/node': 14.14.6
     dev: true
     resolution:
       integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==
@@ -1486,7 +1486,7 @@ packages:
   /autoprefixer/10.0.1_postcss@8.1.4:
     dependencies:
       browserslist: 4.14.5
-      caniuse-lite: 1.0.30001151
+      caniuse-lite: 1.0.30001154
       colorette: 1.2.1
       normalize-range: 0.1.2
       num2fraction: 1.2.2
@@ -1503,7 +1503,7 @@ packages:
   /autoprefixer/9.8.6:
     dependencies:
       browserslist: 4.14.5
-      caniuse-lite: 1.0.30001151
+      caniuse-lite: 1.0.30001154
       colorette: 1.2.1
       normalize-range: 0.1.2
       num2fraction: 1.2.2
@@ -1659,10 +1659,10 @@ packages:
       integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
   /browserslist/4.14.5:
     dependencies:
-      caniuse-lite: 1.0.30001151
+      caniuse-lite: 1.0.30001154
       electron-to-chromium: 1.3.584
       escalade: 3.1.1
-      node-releases: 1.1.64
+      node-releases: 1.1.65
     dev: true
     engines:
       node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7
@@ -1790,10 +1790,10 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
-  /caniuse-lite/1.0.30001151:
+  /caniuse-lite/1.0.30001154:
     dev: true
     resolution:
-      integrity: sha512-Zh3sHqskX6mHNrqUerh+fkf0N72cMxrmflzje/JyVImfpknscMnkeJrlFGJcqTmaa0iszdYptGpWMJCRQDkBVw==
+      integrity: sha512-y9DvdSti8NnYB9Be92ddMZQrcOe04kcQtcxtBx4NkB04+qZ+JUWotnXBJTmxlKudhxNTQ3RRknMwNU2YQl/Org==
   /chalk/1.1.3:
     dependencies:
       ansi-styles: 2.2.1
@@ -3969,10 +3969,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Yt3384If5H6BYGVHiHwTL+99OzJKHhgp82S8/dktEK73T26BazdgZ4JZh92xSVtGNJvz9UbXdNAc5hcrXV42vw==
-  /node-releases/1.1.64:
+  /node-releases/1.1.65:
     dev: true
     resolution:
-      integrity: sha512-Iec8O9166/x2HRMJyLLLWkd0sFFLrFNy+Xf+JQfSQsdBJzPcHpNl3JQ9gD4j+aJxmCa25jNsIbM4bmACtSbkSg==
+      integrity: sha512-YpzJOe2WFIW0V4ZkJQd/DGR/zdVwc/pI4Nl1CZrBO19FdRcSTmsuhdttw9rsTzzJLrNcSloLiBbEYx1C4f6gpA==
   /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.8.8
@@ -4388,7 +4388,7 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
-  /postcss-cli/8.1.0_postcss@8.1.4:
+  /postcss-cli/8.2.0_postcss@8.1.4:
     dependencies:
       chalk: 4.1.0
       chokidar: 3.4.3
@@ -4401,6 +4401,7 @@ packages:
       postcss-reporter: 7.0.1_postcss@8.1.4
       pretty-hrtime: 1.0.3
       read-cache: 1.0.0
+      slash: 3.0.0
       yargs: 16.1.0
     dev: true
     engines:
@@ -4409,7 +4410,7 @@ packages:
     peerDependencies:
       postcss: ^8.0.0
     resolution:
-      integrity: sha512-FYuV5zyYX53X5RywInxjWLqHZ4oCBC3nDwrHYU3Z75mFqUo5IHfbeY593heWSagG90nPnXq3tXCck8+2CUl8EA==
+      integrity: sha512-N7tgPpB/2yXk/04irc/RiImCkftVw42STaploQBeOT1xvrIkyG+YW+TsHAJ57xWwL+b0AjXnqs5/RL/1XIh2Lw==
   /postcss-functions/3.0.0:
     dependencies:
       glob: 7.1.6
@@ -4919,7 +4920,7 @@ packages:
   /rollup/1.32.1:
     dependencies:
       '@types/estree': 0.0.45
-      '@types/node': 14.14.5
+      '@types/node': 14.14.6
       acorn: 7.4.1
     dev: true
     hasBin: true
@@ -5132,18 +5133,18 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-rV+es3chRduZnjQM1WnkgB/gWext+41+CZ5EXTgRXxcXXk5DT6JPn9yivP1+098I1ilmtPYQMB/yGHsWHG8ebA==
-  /solid-app-router/0.0.4_solid-js@0.21.3:
+  /solid-app-router/0.0.9_solid-js@0.21.4:
     dependencies:
-      solid-js: 0.21.3
+      solid-js: 0.21.4
     dev: false
     peerDependencies:
       solid-js: ^0.21.2
     resolution:
-      integrity: sha512-qkfkSDc8xF59MKDFil5uH/t5ynXnD/VFXtjQQRJOj3/w/N9ykYRBtblQR0GbG/Z3jGNvgBHbIuJ8/t098zoL+Q==
-  /solid-js/0.21.3:
+      integrity: sha512-cwTKthAlAgh0l4bWTM4+R7o8+V8tN/kAp95u6IWzJE5LsZnn57wRJmgvMo7zJQHHebsJ7fi0SdYgxEIXICMJ0g==
+  /solid-js/0.21.4:
     dev: false
     resolution:
-      integrity: sha512-jGjCQ/J9m5OCLY0Wm0Te2bS15xSmF1vCuthOqXtD/LL0zp02j6du0luXHs8deKnBNP4h6RzHgEiqcUij2f6Kzg==
+      integrity: sha512-qmkzkZqgq0DaAwv5CNb6kp5UtcWekoPrJqTRvQyETs/QI7OCiIuQc9I1AItYcWF8VsXJ8axBBT4L7uEJIiULzA==
   /source-map-resolve/0.5.3:
     dependencies:
       atob: 2.1.2
@@ -6025,11 +6026,11 @@ specifiers:
   autoprefixer: ^10.0.1
   babel-preset-solid: ^0.21.3
   postcss: ^8.1.4
-  postcss-cli: ^8.1.0
+  postcss-cli: ^8.2.0
   prettier: ^2.1.2
   snowpack: ^2.15.1
-  solid-app-router: ^0.0.4
-  solid-js: ^0.21.3
+  solid-app-router: ^0.0.9
+  solid-js: ^0.21.4
   tailwindcss: ^1.9.6
   typescript: ^4.0.5
   workbox-cli: ^5.1.4
