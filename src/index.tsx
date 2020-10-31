@@ -44,7 +44,7 @@ if (import.meta.env.MODE === 'development') {
 }
 
 // https://developers.google.com/web/tools/workbox/modules/workbox-window
-if (import.meta.env.MODE === 'production' && 'serviceWorker' in navigator) {
-  const wb = new Workbox('/sw.js');
-  wb.register();
-}
+// if (import.meta.env.MODE === 'production' && 'serviceWorker' in navigator) {
+//   const wb = new Workbox('/sw.js');
+//   wb.register();
+// }

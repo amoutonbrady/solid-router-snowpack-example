@@ -1,5 +1,5 @@
 dependencies:
-  solid-app-router: 0.0.10_solid-js@0.21.4
+  solid-app-router: 0.0.11_solid-js@0.21.4
   solid-js: 0.21.4
   workbox-window: 5.1.4
 devDependencies:
@@ -5081,14 +5081,14 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-h4x0bby2w50u4AgGYUONZWsVwZ0xgOUXMf378ugMsb35rXNhQO3TXGo+RioSSA6uwBVQAfs3Qgg9R2JjKVWGOQ==
-  /solid-app-router/0.0.10_solid-js@0.21.4:
+  /solid-app-router/0.0.11_solid-js@0.21.4:
     dependencies:
       solid-js: 0.21.4
     dev: false
     peerDependencies:
       solid-js: ^0.21.2
     resolution:
-      integrity: sha512-eJ/f4H5u9A0xRYfKMivWDH2BDfl06h7/+b6D3LFMNqCmeinGi2LPQzHNO4bljbSMOv7lvXtqt0mhvLBGlZFQ4g==
+      integrity: sha512-gCObEapv+drqzsXH7lEkqJNOoH9OJB4F2gEXgN6o5JzpE4JoSr5KyYINTgYd+KlB1BmYkXudnXDXuA4WWIDuRw==
   /solid-js/0.21.4:
     dev: false
     resolution:
@@ -5963,7 +5963,7 @@ specifiers:
   postcss-cli: ^8.2.0
   prettier: ^2.1.2
   snowpack: ^2.16.0
-  solid-app-router: ^0.0.10
+  solid-app-router: 0.0.11
   solid-js: ^0.21.4
   tailwindcss: ^1.9.6
   typescript: ^4.0.5

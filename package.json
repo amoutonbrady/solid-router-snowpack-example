@@ -1,12 +1,12 @@
 {
   "scripts": {
     "dev": "snowpack dev",
-    "build": "snowpack build && workbox generateSW",
+    "build": "snowpack build",
     "format": "prettier --write \"src/**/*.{ts,js}\"",
     "lint": "prettier --check \"src/**/*.{ts,js}\""
   },
   "dependencies": {
-    "solid-app-router": "^0.0.10",
+    "solid-app-router": "0.0.11",
     "solid-js": "^0.21.4",
     "workbox-window": "^5.1.4"
   },
