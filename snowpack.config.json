@@ -6,7 +6,8 @@
   "plugins": [
     "@snowpack/plugin-typescript",
     "@snowpack/plugin-babel",
-    "@snowpack/plugin-postcss"
+    "@snowpack/plugin-postcss",
+    ["@snowpack/plugin-optimize", { "preloadModules": true }]
   ],
   "installOptions": {
     "installTypes": true
